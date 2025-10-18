@@ -7,5 +7,5 @@
   --bold-font-weight: 700;
   --heart-fill: #f00;
   --heart-core: #fff;
-  --backdrop-color: rgba(0, 0, 0, 0.75);
+  --backdrop-color: rgb(0 0 0 / 75%);
 }
