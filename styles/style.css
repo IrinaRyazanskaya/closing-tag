@@ -18,7 +18,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font);
-  font-variation-settings: 'wght' var(--normal-font-weight);
+  font-variation-settings: "wght" var(--normal-font-weight);
   background-color: var(--bg-color);
   background-size: cover;
   background-attachment: fixed;
@@ -27,7 +27,7 @@
   color: var(--accent-color);
 }
 
-.header, 
+.header,
 .content {
   inline-size: clamp(375px, 80vw, 700px);
   margin: auto;
@@ -72,35 +72,35 @@
   border: none;
   padding: 0;
   text-transform: inherit;
-  transition: opacity .3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .theme-menu__button:hover {
-  opacity: .6;
+  opacity: 0.6;
   cursor: pointer;
 }
 
 .theme-menu__button:disabled {
   position: relative;
-  opacity: .6;
+  opacity: 0.6;
   pointer-events: none;
 }
 
 .theme-menu__button:disabled::before {
-  content: '\25B6';
+  content: "\25B6";
   position: absolute;
   inset-inline-start: -24px;
-  animation: arrow .5s ease-in-out infinite alternate;
+  animation: arrow 0.5s ease-in-out infinite alternate;
 }
 
 .theme-menu__button:focus {
   outline: none;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .theme-menu__button::after {
   position: absolute;
-  content: ''; 
+  content: "";
   width: 100%;
   height: 2px;
   inset-block-end: -2px;
@@ -108,7 +108,7 @@
   background-color: currentColor;
   transform: scaleX(0);
   transform-origin: top left;
-  transition: transform .3s ease;
+  transition: transform 0.3s ease;
 }
 
 .theme-menu__button:focus-visible::after {
@@ -128,7 +128,7 @@
 
 .card__title {
   font-size: inherit;
-  font-variation-settings: 'wght' var(--bold-font-weight);
+  font-variation-settings: "wght" var(--bold-font-weight);
   padding: 5px 10px 4px;
   border-block-end: var(--border);
 }
@@ -146,20 +146,23 @@
   font-size: 14px;
   mix-blend-mode: hard-light;
   text-shadow:
-    -1px 0 var(--lable-stroke-color), 
-    0 1px var(--lable-stroke-color), 
-    1px 0 var(--lable-stroke-color), 
+    -1px 0 var(--lable-stroke-color),
+    0 1px var(--lable-stroke-color),
+    1px 0 var(--lable-stroke-color),
     0 -1px var(--lable-stroke-color);
   opacity: 50%;
 }
 
-@supports((text-stroke: 1px var(--lable-stroke-color)) or (-webkit-text-stroke: 1px var(--lable-stroke-color))) {
+@supports (
+  (text-stroke: 1px var(--lable-stroke-color)) or
+    (-webkit-text-stroke: 1px var(--lable-stroke-color))
+) {
   .card__lable {
-      -webkit-text-stroke: 1px var(--lable-stroke-color);
-      text-stroke: 1px var(--lable-stroke-color);
-      text-shadow: none;
+    -webkit-text-stroke: 1px var(--lable-stroke-color);
+    text-stroke: 1px var(--lable-stroke-color);
+    text-shadow: none;
   }
-} 
+}
 
 .card__image {
   display: block;
@@ -194,7 +197,7 @@
   padding: 0;
   block-size: 38px;
   border: 2px solid transparent;
-  transition: border .3s ease;
+  transition: border 0.3s ease;
 }
 
 .sparks {
@@ -260,7 +263,7 @@
   font-family: var(--accent-font);
   font-size: 14px;
   line-height: 90%;
-  transition: box-shadow .3s ease;
+  transition: box-shadow 0.3s ease;
   padding: 0;
 }
 
@@ -285,7 +288,7 @@
 .footer__save-button::before,
 .save-dialog__button::before {
   position: absolute;
-  content: ''; 
+  content: "";
   width: 100%;
   height: 100%;
   inset-inline-start: 0;
@@ -293,7 +296,7 @@
   background-color: var(--accent-color);
   transform: scaleX(0);
   transform-origin: top left;
-  transition: transform .5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .card__like-button:hover::before,

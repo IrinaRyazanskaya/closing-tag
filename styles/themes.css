@@ -10,8 +10,8 @@
   --button-text-color: #fff;
   --lable-stroke-color: #fff;
   --border: 2px solid var(--accent-color);
-  --background-image: 
-    repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+  --background-image:
+    repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
     repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
     linear-gradient(#e7e7e7 0.01%, #1a1a1a);
   --normal-font-weight: 400;
@@ -24,8 +24,8 @@
   --button-text-color: var(--accent-color);
   --lable-stroke-color: #000;
   --border: 2px solid var(--accent-color);
-  --background-image: 
-    repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px), 
+  --background-image:
+    repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
     repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
     linear-gradient(#007f0c 0.01%, #004306);
   --normal-font-weight: 465;
@@ -39,8 +39,8 @@
     --button-text-color: #fff;
     --lable-stroke-color: #fff;
     --border: 2px solid var(--accent-color);
-    --background-image: 
-      repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px), 
+    --background-image:
+      repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
       repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
       linear-gradient(#e7e7e7 0.01%, #1a1a1a);
     --normal-font-weight: 400;
@@ -55,8 +55,8 @@
     --button-text-color: var(--accent-color);
     --lable-stroke-color: #000;
     --border: 2px solid var(--accent-color);
-    --background-image: 
-      repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px), 
+    --background-image:
+      repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
       repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
       linear-gradient(#007f0c 0.01%, #004306);
     --normal-font-weight: 465;
